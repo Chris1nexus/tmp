@@ -77,7 +77,7 @@ class CameraReceiverProcess(WorkerProcess):
         """Initialize the socket server. 
         """
         self.port       =   2244#2244
-        self.serverIp   =   '192.168.1.4'#socket.gethostbyname("localhost")#'192.168.1.14' #serverIp = '127.0.0.1'#
+        self.serverIp   =   '192.168.100.111'#'192.168.1.4'#socket.gethostbyname("localhost")#'192.168.1.14' #serverIp = '127.0.0.1'#
             
         self.server_socket = socket.socket()
         self.server_socket.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
