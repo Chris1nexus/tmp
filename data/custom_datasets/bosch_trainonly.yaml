@@ -1,0 +1,9 @@
+path: ../../../../datasets/bosch_dataset/boschyolo_trainonly # dataset root dir
+train: images/train # train images (relative to 'path') 128 images
+val:  images/train  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 11  # number of classes
+names: ['Car', 'Stop sign', 'Red light', 'Yellow light', 'Green light', 'Crosswalk sign', 'Highway sign', 'Precedence right sign', 'Park sign', 'Wrong way sign', 'Pedestrian']  # class names
+ 
